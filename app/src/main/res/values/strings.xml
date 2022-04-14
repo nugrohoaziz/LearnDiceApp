@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Dice Role</string>
+    <string name="txtbtnroll1">Roll Dice</string>
+    <string name="txtbtnroll2">Roll Dice 2</string>
+</resources>
