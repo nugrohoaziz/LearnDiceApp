@@ -37,6 +37,7 @@ class MainActivity : AppCompatActivity() {
             Toast.makeText(this, "try again roll dice!", Toast.LENGTH_SHORT).show()
         }
         diceImage.setImageResource(drawableResource)
+        diceImage.contentDescription = diceRoll.toString()
 
     }
 
