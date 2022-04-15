@@ -2,4 +2,6 @@
     <string name="app_name">Dice Role</string>
     <string name="txtbtnroll1">Roll Dice</string>
     <string name="txtbtnroll2">Roll Dice 2</string>
+    <string name="dice1">Dice1</string>
+    <string name="dice2">Dice2</string>
 </resources>
