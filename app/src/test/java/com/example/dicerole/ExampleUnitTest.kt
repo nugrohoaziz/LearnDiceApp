@@ -1,8 +1,7 @@
 package com.example.dicerole
 
+import org.junit.Assert.assertTrue
 import org.junit.Test
-
-import org.junit.Assert.*
 
 /**
  * Example local unit test, which will execute on the development machine (host).
@@ -11,7 +10,9 @@ import org.junit.Assert.*
  */
 class ExampleUnitTest {
     @Test
-    fun addition_isCorrect() {
-        assertEquals(4, 2 + 2)
+    fun generates_number(){
+        val dice = MainActivity.Dice(6)
+        val rollResult = dice.roll()
+        assertTrue("ini bernilai acak dari 1 sampai 6", rollResult in 1..6)
     }
 }
